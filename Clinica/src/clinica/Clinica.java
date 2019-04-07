@@ -33,6 +33,7 @@ public class Clinica extends Application {
     public static void main(String[] args) {
         launch(args);
         System.out.print("Hola");
+        System.out.print("Mi polla en tu boca");
     }
     
 }
