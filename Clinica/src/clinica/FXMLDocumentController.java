@@ -10,6 +10,7 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 /**
@@ -18,18 +19,42 @@ import javafx.scene.control.Label;
  */
 public class FXMLDocumentController implements Initializable {
     
-    @FXML
     private Label label;
-    
     @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
-    }
+    private Button bAdd;
+    @FXML
+    private Button bDelete;
+    @FXML
+    private Button bInf;
+    @FXML
+    private Button bDoctorList;
+    @FXML
+    private Button bAppointmentList;
+    
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void Add(ActionEvent event) {
+    }
+
+    @FXML
+    private void Delete(ActionEvent event) {
+    }
+
+    @FXML
+    private void Inf(ActionEvent event) {
+    }
+
+    @FXML
+    private void DoctorList(ActionEvent event) {
+    }
+
+    @FXML
+    private void AppointmentList(ActionEvent event) {
+    }
     
 }
